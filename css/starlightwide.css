@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ================================================================ 
+This copyright notice must be kept untouched in the stylesheet at 
+all times.
+Copyright (c) Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+.starlightImages {padding-left:10px;}
+.aBox img {border:0;}
+.bBox {display:none;}
+
+.starLight {display:table; position:fixed; top:0; left:-9999px; width:100%; height:100%; z-index:500; background:rgba(0,0,0,0.5);}
+.starLight .holder {position:fixed; width:100%; height:100%; left:0; top:0; z-index:100; text-align:center; display:table-cell; opacity:0;
+-moz-transform: scale(0);
+-ms-transform: scale(0);
+-o-transform: scale(0);
+-webkit-transform: scale(0);
+transform: scale(0);
+-webkit-transition: 1s;
+-moz-transition: 1s;
+-o-transition: 1s;
+transition: 1s;
+}
+
+.starLight .frame {display:inline-block; margin:50px auto; padding:15px; background:#fff; position:relative; text-align:left; font-family:arial, sans-serif;
+border-radius:10px 10px 0 0;
+}
+
+.starLight .frame .clickLeft {position:absolute; left:15px; top:15px; right:50%; bottom:15px; z-index:110;}
+.starLight .frame .clickLeft .previous {opacity:0; position:absolute; width:100px; text-align:center; height:40px; top:120px; left:0; background:rgba(64,64,64,0.6); font:bold 15px/40px arial, sans-serif; text-decoration:none; color:#fff; border-radius:0 10px 10px 0;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s;
+}
+
+.starLight .frame .clickLeft:hover .previous {opacity:1;}
+
+.starLight .frame .clickRight {position:absolute; right:15px; top:15px; left:50%; bottom:15px; z-index:110;}
+.starLight .frame .clickRight .next {opacity:0; position:absolute; width:100px; text-align:center; height:40px; top:120px; right:0; background:rgba(64,64,64,0.6); font:bold 15px/40px arial, sans-serif; text-decoration:none; color:#fff; border-radius:10px 0 0 10px;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s;
+}
+
+.starLight .frame .clickRight:hover .next {opacity:1;}
+
+.starLight .large {display:inline-block; position:relative; z-index:100; border:1px solid #888;
+-webkit-transition: 1s;
+-moz-transition: 1s;
+-o-transition: 1s;
+transition: 1s;
+}
+
+.starLight .frame .close {display:block; width:48px; height:48px; position:absolute; top:-24px; right:-24px; z-index:200; opacity:0;
+-webkit-transition: 1s 1s;
+-moz-transition: 1s 1s;
+-o-transition: 1s 1s;
+transition: 1s 1s;
+}
+
+.starLight .frame .close img {border:0;}
+

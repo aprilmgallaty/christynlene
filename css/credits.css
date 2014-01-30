@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+#thanks{
+	text-align: center;
+	font-size:1.2em;
+}
+
+#noWant{
+	text-align: center;
+	font-size: 1.2em;
+	padding-bottom: 10px;
+}
+
+
+li{
+	list-style-type: circle;
+}
+
+#creditList ul, #creditList li{
+	padding-top: 10px;
+	padding-left: 50px;
+}
+
+#creditList li{
+	padding-bottom: 10px;
+}
+
+#contentCredits{
+	clear: both;
+	width: auto;
+}
+
+#contentCredits p{
+	margin: 0 auto;
+	padding: 5px 25px;
+	font-size: 16px;
+	line-height: 22px;
+	text-indent: 25px;
+	font-weight: 500;
+}
